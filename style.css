@@ -1,0 +1,13 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+#body1{
+    background-color: whitesmoke;
+    height: 70px;
+    width: 1550px;
+}
+#logo{
+    height: 70px;
+    width: 70px;
+}
