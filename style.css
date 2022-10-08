@@ -9,7 +9,7 @@ body {
 }
 
 .menu__bar {
-    background-color: rgb(6, 101, 136);
+    background-color: rgba(125, 188, 243, 0.897);
     height: 70px;
     width: 100%;
     display: flex;
