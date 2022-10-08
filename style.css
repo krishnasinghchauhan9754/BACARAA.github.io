@@ -9,7 +9,7 @@ body {
 }
 
 .menu__bar {
-    background-color: rgba(125, 188, 243, 0.897);
+    background-color: rgba(232, 236, 239, 0.897);
     height: 70px;
     width: 100%;
     display: flex;
@@ -19,8 +19,8 @@ body {
 }
 
 .logo {
-    height: 70px;
-    width: 70px;
+    height: 150px;
+    width: 200px;
 }
 
 .menu__bar ul {
