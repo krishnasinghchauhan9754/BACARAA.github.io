@@ -136,6 +136,19 @@ body {
     font-size: 15px;
     padding-bottom: 10px;
 }
-#hero section{
-    font-size: 10px;
+#hero button{
+    font-size: 15px;
+    font-style: italic;
+    background-image: url(image/dominik-schroder-FIKD9t5_5zQ-unsplash.jpg);
+    background-color: transparent;
+    color: black;
+    border: 0;
+    padding: 14px 80px 14px 65px;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    font-weight: 700;
+    
+
+
+
 }
