@@ -106,9 +106,36 @@ body {
     background-size: cover;
     background-position: top 25% right 0;
     padding: 0 80px;
-    color: rgb(252, 246, 246);
+    color: white;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
+}
+
+#hero h4{
+   font-size: 30px; 
+   padding-bottom: 10px;
+   font-style: italic;
+   font-weight: 600;
+}
+
+#hero h1{
+    font-size: 20px;
+    padding-bottom: 10px;
+    font-style: italic;
+}
+
+#hero h2{
+    font-size: 20px;
+    padding-bottom: 10px;
+    font-style: italic;
+}
+
+#hero p{
+    font-size: 15px;
+    padding-bottom: 10px;
+}
+#hero section{
+    font-size: 10px;
 }
