@@ -36,13 +36,23 @@ body {
 .menu__bar ul li a {
     color: #1a1a1a;
     font-size: 15px;
-    transition: all 0.3s;
-    font-weight: 600;
+    transition: all 0.3s ease;
+    font-weight: 550;
     text-decoration: none;
 }
 
 .menu__bar ul li a:hover {
-    color: rgb(63, 173, 195);
+    color: rgb(23, 193, 156);
+}
+
+.menu__bar ul li a:hover::after {
+    content: "";
+    width: 30%;
+    height: 2px;
+    background: rgb(23, 193, 156);
+    position: absolute;
+    bottom: -4px;
+    left: 20px;
 }
 
 .dropdown__menu {
@@ -54,7 +64,7 @@ body {
     position: absolute;
     left: 0;
     top: 100%;
-    background-color: rgb(6, 101, 136);
+    background-color: rgb(244, 244, 244);
 }
 
 .menu__bar ul li:hover .dropdown__menu ul {
@@ -76,7 +86,7 @@ body {
     position: absolute;
     left: 0;
     top: 100%;
-    background-color: rgb(6, 101, 136);
+    background-color: rgb(240, 240, 240);
 }
 
 .menu__bar ul li:hover .dropdown__menu2 ul {
@@ -87,4 +97,18 @@ body {
 .menu__bar ul li:hover .dropdown__menu2 ul li {
     width: 150px;
     padding: 10px;
+}
+
+#hero {
+    background-image: url(image/pexels-felix-mittermeier-956981\ \(1\).jpg);
+    height: 90vh;
+    width: 100%;
+    background-size: cover;
+    background-position: top 25% right 0;
+    padding: 0 80px;
+    color: rgb(252, 246, 246);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
 }
