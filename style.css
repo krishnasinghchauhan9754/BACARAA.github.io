@@ -8,6 +8,10 @@ body {
     font-family: sans-serif;
 }
 
+
+            /*header*/
+
+            
 .menu__bar {
     background-color: rgba(232, 236, 239, 0.897);
     height: 70px;
@@ -16,7 +20,14 @@ body {
     align-items: center;
     justify-content: space-between;
     padding: 0 5%;
+    z-index: 999;
+    position: sticky;
+    top: 0;
+    left: 0;
 }
+
+
+        /*logo*/
 
 .logo {
     height: 200px;
@@ -101,7 +112,7 @@ body {
 
 #hero {
     background-image: url(image/pexels-felix-mittermeier-956981\ \(1\).jpg);
-    height: 90vh;
+    height: 100vh;
     width: 100%;
     background-size: cover;
     background-position: top 25% right 0;
@@ -143,12 +154,70 @@ body {
     background-color: transparent;
     color: black;
     border: 0;
-    padding: 14px 80px 14px 65px;
+    padding: 14px 40px 14px 40px;
     background-repeat: no-repeat;
     cursor: pointer;
     font-weight: 700;
-    
+}
 
+.sectionp-1{
+    padding: 40px 80px;
+}
 
+#product1{
+    text-align: center;
+}
 
+#product1 .pro{
+    width: 23%;
+    height: 250px;
+    padding: 10px 12px;
+    border: 1px solid #cce7d0;
+    border-radius: 25px;
+    cursor: pointer;
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.02);
+    margin: 15px 0;
+    transition: 0.3s ease;
+}
+
+#product1 .pro:hover{
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.06);
+}
+
+#product1 .pro img{
+    width: 100%;
+    border-radius: 20px;
+}
+
+#product1 .pro .des span {
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+}
+
+#product1 .pro .des h5 {
+    padding-top: 7px;
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+}
+
+#product1 .pro .des i{
+    font-size: 12px;
+    color: yellow;
+}
+
+#product1 .pro .des h6{
+    padding-top: 7px;
+    font-size: 15px;
+    font-weight: 700;
+    color: #088178;
+}
+
+#product1 .pro .idea{
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        border-radius: 50px;
+        background-color: white;
+        font-weight: 500;
+        color: #088178; 
 }
