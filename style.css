@@ -238,5 +238,35 @@ body {
 }
 
 #banner h3{
-    color: aqua;
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    padding: 10px 0;
+
+}
+
+#banner h4{
+    font-size: 30px;
+    color: white;
+    padding: 10px 0;
+}
+
+#banner h4 span{
+    color: red;
+}
+
+button.banner{
+    color: #000000;
+    font-size: 20px;
+    padding: 5px 30px;
+    background-color: #ffffff;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    transition: 0.2s;
+}
+
+button.banner:hover{
+    background: #088178;
+    color: #ffffff;
 }
