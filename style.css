@@ -325,3 +325,97 @@ button.white{
     background: #088178;
     border: 1px solid #088178;
 }
+
+#banner3 .banner-box {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-image: url(image/bannerbox_3_1.jpg);
+    min-width: 30%;
+    height: 30vh;
+    background-size: cover;
+    background-position: center;
+    padding: 0px 50px;
+    margin-bottom: 20px;
+}
+
+#banner3 h2{
+    color: white;
+    font-weight: 800;
+    font-size: 15px;
+}
+
+#banner3 h3{
+    color: white;
+    font-weight: 900;
+    font-size: 30px;
+}
+
+
+
+#banner3{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0 80px;
+}
+
+#newsletter{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    background-image: url(image/signup_banner_1.jpg);
+    background-repeat: no-repeat;
+    background-position: 20% 30%;
+    background-color: white;
+}
+
+#newsletter h4{
+    font-size: 25px;
+    font-weight: 700;
+    color: white;
+}
+
+#newsletter p{
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(178, 175, 175);
+}
+
+#newsletter p span{
+    color: #ffbd27;
+}
+
+
+#newsletter input {
+    height: 3.125rem;
+    padding: 0 1.25;
+    font-size: 14px;
+    width: 100%;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    outline: none;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+#newsletter button{
+    background-color: #088178;
+    color: white;
+    white-space: nowrap;
+    font-size: 15px;
+    padding: 5px 30px;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    border-top-left-radius: 0;
+    border-top-left-radius: 0;
+}
+
+#newsletter .form{
+    display: flex;
+    width: 40%;
+}
