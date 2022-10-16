@@ -270,3 +270,58 @@ button.banner:hover{
     background: #088178;
     color: #ffffff;
 }
+
+#sm-banner .banner-box{
+    displa:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-image: url(image/small_banner_1.jpg);
+    min-width: 580px;
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+    padding: 200px 30px;
+}
+
+#sm-banner {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#sm-banner h4{
+    color: white;
+    font-size: 25px;
+    font-weight: 300;
+}
+
+#sm-banner h2{
+    color: white;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+#sm-banner span{
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    padding-bottom: 15px;
+}
+
+button.white{
+    color: #000000;
+    font-size: 20px;
+    padding: 5px 30px;
+    background-color: #ffffff;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    transition: 0.2s;
+}
+
+#sm-banner .banner-box:hover button{
+    background: #088178;
+    border: 1px solid #088178;
+}
