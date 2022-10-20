@@ -67,14 +67,23 @@ body {
 }
 
 
+.back-video{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+
+
 #hero {
-    background-image: url(image/pexels-felix-mittermeier-956981\ \(1\).jpg);
+    -background-image: url(image/pexels-felix-mittermeier-956981\ \(1\).jpg);
     height: 100vh;
     width: 100%;
     background-size: cover;
     background-position: top 25% right 0;
     padding: 0 80px;
-    color: white;
+    color: rgb(144, 56, 56);
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -450,63 +459,3 @@ footer .copyright{
     text-align: center;
 }
 
-.gaming_animation img{
-    width: 50px;  
-    animation: bubble 7s linear infinite;
-}
-
-.gaming_animation{
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    position: absolute;
-    bottom: 0;
-}
-
-@keyframes bubble{
-    0%{
-        transform: translateY(0);
-        opacity: 0;
-    }
-    50%{
-        
-        opacity: 1;
-    }
-    70%{
-       
-        opacity: 1;
-    }
-    100%{
-        transform: translateY(-80vh);
-        opacity: 0;
-    }
-
-}
-
-
-.gaming_animation img:nth-child(1){
-    animation-delay: 2s;
-    width: 25px;
-}
-.gaming_animation img:nth-child(2){
-    animation-delay: 1s;
-}
-.gaming_animation img:nth-child(3){
-    animation-delay: 3s;
-    width: 25;
-}
-.gaming_animation img:nth-child(4){
-    animation-delay: 4.5s;
-}
-.gaming_animation img:nth-child(5){
-    animation-delay: 3s;
-}
-.gaming_animation img:nth-child(6){
-    animation-delay: 6s;
-    width: 20px;
-}
-.gaming_animation img:nth-child(7){
-    animation-delay: 7s;
-    width: 35px;
-}
