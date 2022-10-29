@@ -328,7 +328,7 @@ button.banner:hover{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     min-width: 500px;
     height: 40vh;
     background-size: cover;
