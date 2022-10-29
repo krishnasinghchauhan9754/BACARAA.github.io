@@ -139,29 +139,77 @@ body {
 
 }
 
-#product1 h2{
-    font-style: italic;
-    font-size: 30px;
+#product5{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url( image/feutreproduct.jpg);
+    width: 28%;
+    height: 20vh;
+    background-size: cover;
+    background-position: center;
+    margin-left: 37%;
+    border-radius: 50px;
 }
 
-#product1 h2 span{
+
+#product5 h2{
+    font-style: italic;
+    font-size: 30px;
+    color: white;
+}
+
+#product5 h2 span{
     color: #088178;
 }
 
-#product1 p{
+#product5 p{
     font-size: 17px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin-top: 5px;
+    color: white;
 }
 
+#product6{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url( image/latestgadget.jpg);
+    width: 28%;
+    height: 20vh;
+    background-size: cover;
+    background-position: center;
+    margin-left: 37%;
+    border-radius: 50px;
+}
 
+#product6 h2{
+    color: white;
+    font-style: italic;
+}
+
+#product6 h2 span{
+    color: #4490dc;
+    font-style: italic;
+}
+
+#product6 p{
+    color: white;
+    margin-top: 5px;
+}
 
 #product1 .pro-container{
     display: flex;
     justify-content: space-between;
     padding-top: 20px;
     flex-wrap: wrap;
+
 }
+
 
 #product1 .pro{
     width: 23%;
@@ -267,7 +315,7 @@ button.banner:hover{
     justify-content: center;
     align-items: flex-start;
     background-image: url(image/small_banner_1.jpg);
-    min-width: 580px;
+    min-width: 500px;
     height: 40vh;
     background-size: cover;
     background-position: center;
@@ -280,8 +328,8 @@ button.banner:hover{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: flex-start;
-    min-width: 580px;
+    align-items: center;
+    min-width: 500px;
     height: 40vh;
     background-size: cover;
     background-position: center;
@@ -382,6 +430,10 @@ button.banner3_1{
     border-radius: 50px;
 }
 
+button.banner3_1:hover{
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.50 );
+}
+
 #banner3 .banner-box_2 {
     display:flex;
     flex-direction: column;
@@ -413,6 +465,10 @@ button.banner3_2{
     border-radius: 50px;
 }
 
+button.banner3_2:hover{
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.50 );
+}
+
 #banner3 .banner-box_3 {
     display:flex;
     flex-direction: column;
@@ -442,6 +498,10 @@ button.banner3_3{
     font-size: 1.25em;
     box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6);
     border-radius: 50px;
+}
+
+button.banner3_3:hover{
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.50 );
 }
 
 #banner3 h2{
@@ -596,4 +656,3 @@ footer .copyright{
     width: 100%;
     text-align: center;
 }
-
