@@ -409,7 +409,7 @@ button.white{
     height: 30vh;
     background-size: cover;
     background-position: center;
-    padding: 0px 50px;
+    padding: 0px 20px;
     margin-bottom: 20px;
     border-radius: 10px;
 }
@@ -444,7 +444,7 @@ button.banner3_1:hover{
     height: 30vh;
     background-size: cover;
     background-position: center;
-    padding: 0px 50px;
+    padding: 0px 20px;
     margin-bottom: 20px;
     border-radius: 10px;
 }
@@ -479,7 +479,7 @@ button.banner3_2:hover{
     height: 30vh;
     background-size: cover;
     background-position: center;
-    padding: 0px 50px;
+    padding: 0px 20px;
     margin-bottom: 20px;
     border-radius: 10px;
 }
