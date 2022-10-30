@@ -315,12 +315,13 @@ button.banner:hover{
     justify-content: center;
     align-items: flex-start;
     background-image: url(image/small_banner_1.jpg);
-    min-width: 500px;
+    min-width: 600px;
     height: 40vh;
     background-size: cover;
     background-position: center;
     padding: 200px 30px;
     border-radius: 10px;
+    margin-left: 50px;
 }
 
 #sm-banner .banner-box_1{
@@ -329,12 +330,13 @@ button.banner:hover{
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    min-width: 500px;
+    min-width: 600px;
     height: 40vh;
     background-size: cover;
     background-position: center;
     padding: 200px 30px;
     border-radius: 10px;
+    margin-right: 50px;
 }
 
 #sm-banner {
