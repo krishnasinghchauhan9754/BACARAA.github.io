@@ -324,6 +324,18 @@ button.banner:hover{
     margin-left: 50px;
 }
 
+#sm-banner .banner-box h4{
+    font-style: italic;
+}
+
+#sm-banner .banner-box h2{
+    font-style: italic;
+}
+
+#sm-banner .banner-box span{
+    font-style: italic;
+}
+
 #sm-banner .banner-box_1{
     background-image: url(image/small\ banner\ pic\ 2.jpg);
     display: flex;
