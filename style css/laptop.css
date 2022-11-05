@@ -303,13 +303,13 @@ body {
     color: white;
 }
 
-#ram-computer{
+#mouse{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-image: url(/image/ram-pc.jpg);
+    background-image: url(/image/mouse.jpg);
     width: 15%;
     height: 10vh;
     background-size: cover;
@@ -317,15 +317,16 @@ body {
     margin-left: 5%;
     border-radius: 5px;
     margin-top: 10px;
+    color: white;
 }
 
-#storage-pc{
+#keyboard{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-image: url(/image/storage\ pc.jpg);
+    background-image: url(/image/keyboard.jpg);
     width: 15%;
     height: 10vh;
     background-size: cover;
@@ -333,15 +334,16 @@ body {
     margin-left: 5%;
     border-radius: 5px;
     margin-top: 10px;
+    color: WHITE;
 }
 
-#cabinet-pc{
+#keyboardmouse{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-image: url(/image/cabinet-pc.jpg);
+    background-image: url(/image/keyboard.jpg);
     width: 15%;
     height: 10vh;
     background-size: cover;
@@ -349,6 +351,7 @@ body {
     margin-left: 5%;
     border-radius: 5px;
     margin-top: 10px;
+    color: white;
 }
 
 footer{
