@@ -113,12 +113,17 @@ body {
     margin: 30px auto;
     text-align: center;
 }
+
 .social-icons img{
     width: 30px;
     margin: 0 12px;
     box-shadow: 0 0 20px 0 #7f7f7f3d;
     cursor: pointer;
     border-radius: 50%;
+}
+
+.social-icons img:hover{
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.50 );
 }
 .input-group{
     top: 180px;
@@ -156,6 +161,7 @@ span{
     font-size: 12px;
     bottom: 68px;
     position: absolute;
+    margin-top: 50px;
 }
 #login{
     left: 50px;
