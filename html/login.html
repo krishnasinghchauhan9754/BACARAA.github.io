@@ -1,74 +1,32 @@
 <!DOCTYPE html>
-<html>
-    <haed>
-        <title>login and registration form</title>
-        <link rel="stylesheet" href="/style/login.css">
-    </haed>
-    <body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/style/login.css">
+    <script type="module" src="/login.js"></script>
+</head>
+<body>
+    <div class="center-box" id="login-div">
+        <h2>login</h2>
+        <input type="email" id="login-email" class="text-field" name="login-email" placeholder="EMAIL" required/><br>
+        <input type="password" id="login-password" class="text-field" name="login-password" placeholder="PASSWORD" required/><br>
+        <button id="login-btn" class="btn-style">login</button><br>
+        <button id="reg-btn" class="an-btn">dont't have an account? Register</button>
+    </div>
+    <div class="center-box" id="register-div">
+        <h2>Register</h2>
+        <input type="email" id="register-email" class="text-field" name="register-email" placeholder="EMAIL" required/><br>
+        <input type="password" id="register-password" class="text-field" name="register-password" placeholder="PASSWORD" required/><br>
+        <button id="register-btn" class="btn-style">Register</button><br>
+        <button id="log-btn" class="an-style">have an account? LOGIn</button>
+    </div>
 
-        <div>
-
-            <div class="menu__bar">
+    <div id="result-box">
+        <h3 id="result"></h3>
+    </div>
     
-                <img src="/image/logo__1_-removebg-preview.png" class="logo">
-                
-               <ul>
-                <li><a href="/index.html">HOME</a></li>
-                <li><a href="/html/computer.html">COMPUTER</a></li>
-                <li><a href="/html/laptop.html">LAPTOP</a></li>
-                <li><a href="/html/about.html">ABOUT</a></li>
-                <li><a href="/html/login.html">LOGIN</a></li>
-               </ul>
-            </div>
-        </div>
-
-        <div class="hero">
-            <div class="form-box">
-                <div class="button-box">
-                    <div id="btn"></div>
-                    <button type="button" class="toggle-btn" onclick="login()">Log In</button>
-                    <button type="button" class="toggle-btn" onclick="register()">Register</button>          
-                </div>
-                <div class="social-icons">
-                    <img src="/image/facebook.jpeg">
-                    <img src="/image/tweeter.jpeg">
-                    <img src="/image/google.jpeg">
-                </div>
-                <form id="login" class="input-group">
-                    <input type="text" class="input-field" placeholder="User Id" required>
-                    <input type="text" class="input-field" placeholder="Enter Password" required>
-                    <input type="checkbox" class="chech-box"><span>Remember Password</span>
-                    <button type="submit" class="submit-btn">Login</button>
-                </form>
-                <form id="register" class="input-group">
-                    <input type="text" class="input-field" placeholder="User Id" required>
-                    <input type="email" class="input-field" placeholder="Email Id" required>
-                    <input type="text" class="input-field" placeholder="Enter Password" required>
-                    <input type="checkbox" class="chech-box"><span>I agree ton the terms & conditions</span>
-                    <button type="submit" class="submit-btn">Register</button>
-                </form>
-            </div>
-        </div>
-        <script>
-            var x=document.getElementById("login");
-            var y=document.getElementById("register");
-            var z=document.getElementById("btn");
-            
-            function register(){
-                x.style.left="-400px";
-                y.style.left="50px";
-                z.style.left="110px";
-            }
-
-                function login(){
-                x.style.left="50px";
-                y.style.left="450px";
-                z.style.left="0px";
-            }
-
-
-
-        </script>
-            
-        </body>
-        </html>
+</body>
+</html>
